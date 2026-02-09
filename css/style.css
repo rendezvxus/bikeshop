@@ -101,6 +101,15 @@ a {
     border-color: var(--base-color);
 }
 
+/* Subtitle */
+
+.subtitle {
+    margin: 0;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+}
+
 @media (max-width: 740px) {
     body {    
     }
