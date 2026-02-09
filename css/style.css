@@ -306,4 +306,27 @@ a {
     .product-card__btn_big {
         width:100%;
     }
+
+    .header__container {
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .header__logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__menu {
+        padding: 20px 0;
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .header__menu-list {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: fit-content;
+    }
 }
