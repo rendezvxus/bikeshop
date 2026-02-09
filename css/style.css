@@ -1,3 +1,12 @@
+:root {
+    --black-color: #263238;
+    --base-color: #BAEF00;
+    --base-color-hover: #D9FF56;
+    --base-color-active: #A3D200;
+    --border-color: #E3E3E3;
+    --placeholder-color: #8D8D8D;
+}
+
 html _{
     box-sizing: border-box;
 }
@@ -12,6 +21,7 @@ body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    color: var(--black-color);
 }
 
 img {
@@ -20,4 +30,10 @@ img {
 
 a {
     text-decoration: none;
+}
+
+.container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 40px 15px;
 }
