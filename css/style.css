@@ -61,6 +61,15 @@ a {
     color: var(--base-color-active);
 }
 
+/* Button */
+
+.default-btn {
+    padding: 11px 47px;
+    color: var(--black-color);
+    border-radius: 12px;
+    background-color: var(--base-color);
+}
+
 @media (max-width: 740px) {
     body {
         
