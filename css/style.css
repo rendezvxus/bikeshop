@@ -43,7 +43,6 @@ a {
 
 .default-link {
     color: var(--black-color);
-    font-size: 20px;
     text-decoration: underline;
     transition: color var(--trasntion-duration), background-color var(--trasntion-duration);
 }
@@ -64,7 +63,7 @@ a {
 /* Button */
 
 .default-btn {
-    display: inline-block ;
+    display: inline-block;
     padding: 11px 47px;
     color: var(--black-color);
     border-radius: 12px;
@@ -82,6 +81,24 @@ a {
 
 .default-btn:hover {
     background-color: var(--base-color-hover);
+}
+
+/* Text Field */
+
+.text-field {
+    padding: 11px 47px 11px 16px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    transition: border-color var(--trasntion-duration);
+}
+
+.text-field::placeholder {
+    color: var(--placeholder-color);
+}
+
+.text-field:focus {
+    border-color: var(--base-color);
 }
 
 @media (max-width: 740px) {
