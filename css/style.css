@@ -32,6 +32,26 @@ a {
     text-decoration: none;
 }
 
+
+.default-link {
+    color: var(--black-color);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.default-link:focus-visible {
+    outline: none;
+    background-color: var(--base-color);
+}
+
+.default-link:hover{
+    color: var(--base-color-hover);
+}
+
+.default-link:active {
+    color: var(--base-color-active);
+}
+
 .container {
     max-width: 780px;
     margin: 0 auto;
