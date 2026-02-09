@@ -70,6 +70,43 @@ a {
 .header__logo:active{
     background-color: var(--base-color-active);
 }
+
+
+/* Hero */
+
+.hero__container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hero__container::after {
+    content: "";
+    display: block;
+    flex-basis: 470px;
+    height: 375px;
+    background-image: url(../img/hero.svg);
+}
+
+.hero__content {
+    flex-basis: 484px;
+}
+
+.hero__title {
+    font-size: 34px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.hero__desc {
+    max-width: 360px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+
 /* Link */
 
 .default-link {
