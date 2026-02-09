@@ -5,6 +5,7 @@
     --base-color-active: #A3D200;
     --border-color: #E3E3E3;
     --placeholder-color: #8D8D8D;
+    --trasntion-duration: .3s;
 }
 
 html _{
@@ -32,11 +33,19 @@ a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 40px 15px;
+}
+
+/* Link */
 
 .default-link {
     color: var(--black-color);
     font-size: 20px;
     text-decoration: underline;
+    transition: color var(--trasntion-duration), background-color var(--trasntion-duration);
 }
 
 .default-link:focus-visible {
@@ -50,12 +59,6 @@ a {
 
 .default-link:active {
     color: var(--base-color-active);
-}
-
-.container {
-    max-width: 780px;
-    margin: 0 auto;
-    padding: 40px 15px;
 }
 
 @media (max-width: 740px) {
