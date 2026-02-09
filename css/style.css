@@ -173,6 +173,19 @@ a {
     height: 100%; 
 }
 
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 23px 15px;
+    background-color: var(--border-color);
+}
+
+.footer__logo {
+    opacity: 50%;
+}
+
 /* Link */
 
 .default-link {
@@ -370,7 +383,7 @@ a {
     width:initial;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 920px) {
 
     .callback-form {
         flex-direction: column;
