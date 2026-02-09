@@ -343,7 +343,7 @@ a {
 .product-card_big {
     border: none;
     position: relative;
-    height: 350px;
+    height: 100%;
 }
 
 .product-card__img_big {
