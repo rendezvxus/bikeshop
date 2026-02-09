@@ -110,6 +110,13 @@ a {
     font-weight: 700;
 }
 
+/* Лого */
+
+.logo {
+    width: 154px;
+    
+}
+
 @media (max-width: 740px) {
     body {    
     }
