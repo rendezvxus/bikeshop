@@ -24,7 +24,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     color: var(--black-color);
-    background-color: grey;
+    background-color: white;
 }
 
 img {
@@ -36,11 +36,40 @@ a {
 }
 
 .container {
-    max-width: 780px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 15px;
+    padding: 0px 15px;
 }
 
+.header {
+    background-color: var(--black-color);
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: block;
+    background-color: var(--base-color);
+    padding: 22px;
+    transition: opacity var(--trasntion-duration), background-color var(--trasntion-duration);
+    outline: none;
+}
+
+.header__logo:focus-visible {
+    opacity: .8;
+}
+
+.header__logo:hover {
+    background-color: var(--base-color-hover);
+}
+
+.header__logo:active{
+    background-color: var(--base-color-active);
+}
 /* Link */
 
 .default-link {
